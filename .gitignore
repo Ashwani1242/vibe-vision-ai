@@ -1,0 +1,30 @@
+# Ignore all node_modules folders in both client and server
+client/node_modules
+server/node_modules
+
+# Environment files
+client/.env
+server/.env
+
+# Client-specific rules
+client/logs
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+client/dist
+client/dist-ssr
+client/*.local
+
+# Editor directories and files (apply to root, client, and server if applicable)
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
